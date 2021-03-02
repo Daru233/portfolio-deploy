@@ -23,7 +23,7 @@ function AboutMe() {
             </div>
 
             <div className="me-img-container"> 
-                <img className="me" src="/img/me.png" alt="me"/>
+                <img className="me" src="./img/me.png" alt="me"/>
             </div>
 
             <div className="gradient-stripe">
