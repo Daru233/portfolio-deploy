@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/portfolio-deploy/static/css/main.b702fc70.chunk.css",
+    "main.js": "/portfolio-deploy/static/js/main.a3fb0788.chunk.js",
+    "main.js.map": "/portfolio-deploy/static/js/main.a3fb0788.chunk.js.map",
+    "runtime-main.js": "/portfolio-deploy/static/js/runtime-main.5179bb5e.js",
+    "runtime-main.js.map": "/portfolio-deploy/static/js/runtime-main.5179bb5e.js.map",
+    "static/js/2.6604d431.chunk.js": "/portfolio-deploy/static/js/2.6604d431.chunk.js",
+    "static/js/2.6604d431.chunk.js.map": "/portfolio-deploy/static/js/2.6604d431.chunk.js.map",
+    "static/js/3.bf000019.chunk.js": "/portfolio-deploy/static/js/3.bf000019.chunk.js",
+    "static/js/3.bf000019.chunk.js.map": "/portfolio-deploy/static/js/3.bf000019.chunk.js.map",
+    "index.html": "/portfolio-deploy/index.html",
+    "static/css/main.b702fc70.chunk.css.map": "/portfolio-deploy/static/css/main.b702fc70.chunk.css.map",
+    "static/js/2.6604d431.chunk.js.LICENSE.txt": "/portfolio-deploy/static/js/2.6604d431.chunk.js.LICENSE.txt",
+    "static/media/signatureNew.026fc83a.png": "/portfolio-deploy/static/media/signatureNew.026fc83a.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5179bb5e.js",
+    "static/js/2.6604d431.chunk.js",
+    "static/css/main.b702fc70.chunk.css",
+    "static/js/main.a3fb0788.chunk.js"
+  ]
+}
