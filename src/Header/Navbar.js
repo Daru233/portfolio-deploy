@@ -31,7 +31,10 @@ function Navbar() {
 
             </div>
 
-
+            <div className="media-icons-container">
+                <img className="github-logo" src="./img/github.svg" alt="github link"/>
+                <img className="linkedin-logo" src="./img/linkedin.svg" alt="linkedin link"/>
+            </div>
 
         </div>
     )
