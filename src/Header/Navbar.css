@@ -1,0 +1,70 @@
+.navbar-container {
+  top: 0;
+  width: 100%;
+  position: fixed;
+  height: 100vh;
+  color: whitesmoke;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[15];
+      grid-template-columns: repeat(15, 1fr);
+  -ms-grid-rows: (1fr)[15];
+      grid-template-rows: repeat(15, 1fr);
+}
+
+.navbar-container .ul-container {
+  -ms-grid-column: 14;
+  -ms-grid-column-span: 2;
+  grid-column: 14/16;
+  -ms-grid-row: 3;
+  -ms-grid-row-span: 7;
+  grid-row: 3/10;
+  list-style: none;
+  color: #696969;
+  padding-left: 5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-size: 1.1em;
+}
+
+.navbar-container .ul-container a {
+  z-index: 3;
+}
+
+.navbar-container .ul-container > .active {
+  color: whitesmoke;
+}
+
+.navbar-container .media-icons-container {
+  -ms-grid-column: 14;
+  -ms-grid-column-span: 1;
+  grid-column: 14/15;
+  -ms-grid-row: 12;
+  -ms-grid-row-span: 2;
+  grid-row: 12/14;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.navbar-container .media-icons-container .github-logo {
+  width: 30%;
+  height: auto;
+  padding-bottom: 15%;
+}
+
+.navbar-container .media-icons-container .linkedin-logo {
+  width: 30%;
+  height: auto;
+  padding-bottom: 15%;
+}
+/*# sourceMappingURL=Navbar.css.map */

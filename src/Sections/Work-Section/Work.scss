@@ -1,0 +1,28 @@
+$primary-background-colour: #121212;
+$secondaryColour: #181818;
+$tertiaryTextColour: #3a3a3a;
+
+.work-container {
+    height: 100vh;
+    color: whitesmoke;
+
+    display: grid;
+    grid-template-columns: repeat(15, 1fr);
+    grid-template-rows: repeat(15, 1fr);
+
+    .content {
+        padding-top: 5%;
+        grid-column: 6/10;
+        grid-row: 3/9;
+        border-radius: 20px;
+        background-color: $secondaryColour;
+    }
+
+    .background-box {
+        grid-column: 1/6;
+        grid-row: 1/16;
+
+        background-color: $secondaryColour;
+    }
+
+}
