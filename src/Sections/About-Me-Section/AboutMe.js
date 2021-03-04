@@ -4,8 +4,6 @@ import signature from './signatureNew.png'
 
 function AboutMe() {
 
-    const 
-
     return (
         <div className="aboutMe-container" id="aboutMe">
 
@@ -32,7 +30,6 @@ function AboutMe() {
             <div className="gradient-stripe">
             </div>
         
-
         </div>
     )
 }
