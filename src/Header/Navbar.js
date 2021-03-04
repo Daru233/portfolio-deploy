@@ -4,6 +4,9 @@ import './Navbar.css'
 
 function Navbar() {
 
+    const linkedInLink = "https://www.linkedin.com/in/michael-malto-a19064152/";
+    const githubLink = "https://github.com/Daru233";
+
     return (
         <div className="navbar-container">
 
@@ -32,7 +35,9 @@ function Navbar() {
             </div>
 
             <div className="media-icons-container">
-                <img className="github-logo" src="./img/github.svg" alt="github link"/>
+                <a href="">
+                    <img className="github-logo" src="./img/github.svg" alt="github link"/>
+                </a>
                 <img className="linkedin-logo" src="./img/linkedin.svg" alt="linkedin link"/>
             </div>
 

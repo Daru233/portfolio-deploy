@@ -3,6 +3,9 @@ import './AboutMe.css'
 import signature from './signatureNew.png'
 
 function AboutMe() {
+
+    const 
+
     return (
         <div className="aboutMe-container" id="aboutMe">
 
@@ -22,7 +25,7 @@ function AboutMe() {
                 <img src={signature} className="signature"/>
             </div>
 
-            <div className="me-img-container"> 
+            <div className="me-img-container">
                 <img className="me" src="./img/me.png" alt="me"/>
             </div>
 
