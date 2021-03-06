@@ -11,6 +11,8 @@
     grid-template-columns: repeat(15, 1fr);
     grid-template-rows: repeat(15, 1fr);
 
+    z-index: 1;
+
     .ul-container {
         grid-column: 14/16;
         grid-row: 3/10;
@@ -25,12 +27,11 @@
         font-size: 1.1em;
 
         a {
-            z-index: 3;
         }
 
         & > .active {
             color: whitesmoke;
-            font-size: 1.2em;
+            font-size: 1.1em;
         }
     }
 

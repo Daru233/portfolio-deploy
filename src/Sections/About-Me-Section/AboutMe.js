@@ -6,6 +6,7 @@ function AboutMe() {
 
     const [offsetY, setOffsetY] = useState(0);
     const handleScroll = () => setOffsetY(window.pageYOffset);
+    var varOpacity;
 
     useEffect(() => {
         window.addEventListener("scroll", handleScroll);
@@ -17,9 +18,14 @@ function AboutMe() {
 
         <div className="aboutMe-container" id="aboutMe">
 
-            <div className="content">
+            <div className="content" style={{
+                transform: `translateY( -${offsetY * 1.2}px)`
+            }}>
                 <h1>Software Engineer</h1>
-                <h2>Michael Malto</h2>
+                <div className="content-michael-malto">
+                    <h2>Michael Malto</h2>
+                </div>
+
                 <div className="paragraph-container">
                     <p>Full stack developer </p>
                     <p>Based in Northern Ireland. </p>
@@ -29,18 +35,22 @@ function AboutMe() {
                 </div>
             </div>
             
-            <div className="signature-container">
+            <div className="signature-container" style={{
+                transform: `translateY( -${offsetY * 0.8}px)`
+            }}>
                 <img src={signature} className="signature"/>
             </div>
 
-            <div className="me-img-container">
+            <div className="me-img-container" style={{
+                transform: `translateY( -${offsetY * 0.4}px)`
+            }}>
                 <img className="me" src="./img/me.png" alt="me"/>
             </div>
 
-            {/* <div className="about-me-scroll" style={{
+            <div className="about-me-scroll" style={{
                 transform: `translateX( -${offsetY}px)`
             }}>
-            </div> */}
+            </div>
             
             <div className="gradient-stripe">
             </div>

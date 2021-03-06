@@ -10,12 +10,5 @@ $tertiaryTextColour: #3a3a3a;
     grid-template-columns: repeat(15, 1fr);
     grid-template-rows: repeat(15, 1fr);
 
-    .content {
-        padding-top: 5%;
-        grid-column: 6/10;
-        grid-row: 3/9;
-        border-radius: 20px;
-        background-color: $secondaryColour;
-    }
 
 }

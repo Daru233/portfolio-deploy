@@ -10,6 +10,7 @@
       grid-template-columns: repeat(15, 1fr);
   -ms-grid-rows: (1fr)[15];
       grid-template-rows: repeat(15, 1fr);
+  z-index: 1;
 }
 
 .navbar-container .ul-container {
@@ -32,13 +33,9 @@
   font-size: 1.1em;
 }
 
-.navbar-container .ul-container a {
-  z-index: 3;
-}
-
 .navbar-container .ul-container > .active {
   color: whitesmoke;
-  font-size: 1.2em;
+  font-size: 1.1em;
 }
 
 .navbar-container .media-icons-container {

@@ -5,9 +5,6 @@ function Work() {
 
     return (
         <div className="work-container" id="work">
-            <div className="content">
-
-            </div>
 
         </div>
     )
