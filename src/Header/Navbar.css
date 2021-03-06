@@ -38,6 +38,7 @@
 
 .navbar-container .ul-container > .active {
   color: whitesmoke;
+  font-size: 1.2em;
 }
 
 .navbar-container .media-icons-container {

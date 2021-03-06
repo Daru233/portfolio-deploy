@@ -14,6 +14,7 @@ function AboutMe() {
     }, [])
 
     return (
+
         <div className="aboutMe-container" id="aboutMe">
 
             <div className="content">
