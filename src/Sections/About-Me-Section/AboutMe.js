@@ -1,8 +1,17 @@
-import React from 'react'
+import React, {useState, useEffect} from 'react'
 import './AboutMe.css'
 import signature from './signatureNew.png'
 
 function AboutMe() {
+
+    const [offsetY, setOffsetY] = useState(0);
+    const handleScroll = () => setOffsetY(window.pageYOffset);
+
+    useEffect(() => {
+        window.addEventListener("scroll", handleScroll);
+
+        return () => window.removeEventListener("scroll", handleScroll);
+    }, [])
 
     return (
         <div className="aboutMe-container" id="aboutMe">
@@ -27,6 +36,11 @@ function AboutMe() {
                 <img className="me" src="./img/me.png" alt="me"/>
             </div>
 
+            {/* <div className="about-me-scroll" style={{
+                transform: `translateX( -${offsetY}px)`
+            }}>
+            </div> */}
+            
             <div className="gradient-stripe">
             </div>
         

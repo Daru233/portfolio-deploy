@@ -20,14 +20,4 @@
   border-radius: 20px;
   background-color: #181818;
 }
-
-.work-container .background-box {
-  -ms-grid-column: 1;
-  -ms-grid-column-span: 5;
-  grid-column: 1/6;
-  -ms-grid-row: 1;
-  -ms-grid-row-span: 15;
-  grid-row: 1/16;
-  background-color: #181818;
-}
 /*# sourceMappingURL=Work.css.map */

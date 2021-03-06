@@ -162,6 +162,23 @@ $onHoverScale: 1.1;
         }
     }
 
+    .about-me-scroll {
+        grid-column: 12/16;
+        grid-row: 1/5; 
+
+        display: flex;
+        align-items: center;
+        justify-content:center;
+
+        h1 {
+            font-size: 8em;
+            color: transparent;
+            -webkit-text-stroke-width: 1px;
+            -webkit-text-stroke-color: whitesmoke;
+            padding-left: 3%;
+            padding-right: 3%;
+        }
+    }
 
     .gradient-stripe {
         grid-column: 6/16;

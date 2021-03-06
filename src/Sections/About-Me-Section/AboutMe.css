@@ -258,6 +258,33 @@
   height: auto;
 }
 
+.aboutMe-container .about-me-scroll {
+  -ms-grid-column: 12;
+  -ms-grid-column-span: 4;
+  grid-column: 12/16;
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 4;
+  grid-row: 1/5;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.aboutMe-container .about-me-scroll h1 {
+  font-size: 8em;
+  color: transparent;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: whitesmoke;
+  padding-left: 3%;
+  padding-right: 3%;
+}
+
 .aboutMe-container .gradient-stripe {
   -ms-grid-column: 6;
   -ms-grid-column-span: 10;
