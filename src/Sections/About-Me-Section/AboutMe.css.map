@@ -1,8 +1,9 @@
 {
     "version": 3,
-    "mappings": "",
+    "mappings": "AAEA,AAAA,kBAAkB,CAAA;ECCd,MAAM,EAAE,KAAK;EACb,KAAK,EAAE,UAAU;EACjB,OAAO,EAAE,IAAI;EACb,qBAAqB,EAAE,eAAe;EACtC,kBAAkB,EAAE,eAAe;EDFnC,UAAU,EAAE,sBAAsB,CAAC,SAAS,CAAC,MAAM,CAAC,YAAc;CACrE",
     "sources": [
-        "AboutMe.scss"
+        "AboutMe.scss",
+        "../../rules/rules.scss"
     ],
     "names": [],
     "file": "AboutMe.css"

@@ -1,0 +1,7 @@
+@import "../../rules/rules.scss";
+
+.aboutMe-container{
+    @include default-grid-style;
+
+    background: url("./snowyyMtn.jpg") no-repeat center center / cover;
+}

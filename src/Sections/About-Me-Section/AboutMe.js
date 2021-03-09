@@ -5,10 +5,9 @@ import signature from './signatureNew.png'
 function AboutMe() {
 
     return (
-
         <div className="aboutMe-container" id="aboutMe">
 
-        
+    
         </div>
     )
 }
