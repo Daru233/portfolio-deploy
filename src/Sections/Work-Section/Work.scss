@@ -1,14 +1,8 @@
-$primary-background-colour: #121212;
-$secondaryColour: #181818;
-$tertiaryTextColour: #3a3a3a;
+// import will be deprecated soon
+@import "../../rules/rules.scss";
 
 .work-container {
-    height: 100vh;
-    color: whitesmoke;
 
-    display: grid;
-    grid-template-columns: repeat(15, 1fr);
-    grid-template-rows: repeat(15, 1fr);
-
+    @include default-grid-style;
 
 }

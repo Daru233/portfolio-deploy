@@ -1,15 +1,13 @@
-$primary-background-colour: #181818;
-$secondaryColour: #1f1f1f;
-$tertiaryTextColour: #3a3a3a;
-$onHoverScale: 1.1;
+// $primary-background-colour: #181818;
+// $secondaryColour: #1f1f1f;
+// $tertiaryTextColour: #3a3a3a;
+// $onHoverScale: 1.1;
+
+@import "../../rules/rules.scss";
 
 .aboutMe-container {
-    height: 100vh;
-    color: whitesmoke;
 
-    display: grid;
-    grid-template-columns: repeat(15, 1fr);
-    grid-template-rows: repeat(15, 1fr);
+    @include default-grid-style;
 
     @keyframes onHover {
         0% {
@@ -106,6 +104,7 @@ $onHoverScale: 1.1;
         grid-row: 3/9;
     }
 
+  
     .me-img-container {
         
         grid-column: 4/8;
@@ -145,7 +144,7 @@ $onHoverScale: 1.1;
                 img {
                     filter: grayscale(0);
                 }
-                transform: scale($onHoverScale)
+                transform: scale($onHoverScale);
           }
 
     }

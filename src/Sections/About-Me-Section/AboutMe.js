@@ -36,19 +36,20 @@ function AboutMe() {
             </div>
             
             <div className="signature-container" style={{
-                transform: `translateY( -${offsetY * 0.8}px)`
+                transform: `translateY( -${offsetY * 1}px)`
             }}>
                 <img src={signature} className="signature"/>
             </div>
 
             <div className="me-img-container" style={{
-                transform: `translateY( -${offsetY * 0.4}px)`
+                transform: `translateY( -${offsetY * 0.15}px)`
             }}>
                 <img className="me" src="./img/me.png" alt="me"/>
             </div>
 
             <div className="about-me-scroll" style={{
-                transform: `translateX( -${offsetY}px)`
+                transform: `translateX( -${offsetY}px)`,
+                
             }}>
             </div>
             

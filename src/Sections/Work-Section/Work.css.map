@@ -1,8 +1,9 @@
 {
     "version": 3,
-    "mappings": "AAIA,AAAA,eAAe,CAAC;EACZ,MAAM,EAAE,KAAK;EACb,KAAK,EAAE,UAAU;EAEjB,OAAO,EAAE,IAAI;EACb,qBAAqB,EAAE,eAAe;EACtC,kBAAkB,EAAE,eAAe;CAGtC",
+    "mappings": "AAGA,AAAA,eAAe,CAAC;ECIZ,MAAM,EAAE,KAAK;EACb,KAAK,EAAE,UAAU;EACjB,OAAO,EAAE,IAAI;EACb,qBAAqB,EAAE,eAAe;EACtC,kBAAkB,EAAE,eAAe;CDJtC",
     "sources": [
-        "Work.scss"
+        "Work.scss",
+        "../../rules/rules.scss"
     ],
     "names": [],
     "file": "Work.css"
