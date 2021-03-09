@@ -1,11 +1,1 @@
-.work-container {
-  height: 100vh;
-  color: whitesmoke;
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: (1fr)[15];
-      grid-template-columns: repeat(15, 1fr);
-  -ms-grid-rows: (1fr)[15];
-      grid-template-rows: repeat(15, 1fr);
-}
-/*# sourceMappingURL=Work.css.map */
+/* No CSS *//*# sourceMappingURL=Work.css.map */
